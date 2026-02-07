@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ABC Business Services - Expert consulting, IT solutions, and customer support for businesses of all sizes.">
+    <meta name="keywords" content="business services, consulting, IT solutions, customer support, ABC Business">
+    <title>ABC Business Services</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; background-color: #f9f9f9; }
+        header { background-color: #28a745; color: white; text-align: center; padding: 50px 20px; }
+        section { padding: 40px 20px; max-width: 1200px; margin: 0 auto; }
+        .services { display: flex; flex-wrap: wrap; justify-content: space-around; }
+        .service { background: white; padding: 20px; margin: 10px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); width: 300px; text-align: center; }
+        .testimonials { display: flex; flex-wrap: wrap; justify-content: space-around; }
+        .testimonial { background: white; padding: 20px; margin: 10px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); width: 300px; }
+        footer { background-color: #333; color: white; text-align: center; padding: 20px; }
+        a { color: #28a745; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to ABC Business Services</h1>
+        <p>Your trusted partner for consulting, IT solutions, and exceptional customer support.</p>
+        <a href="#contact" style="background: white; color: #28a745; padding: 10px 20px; border-radius: 5px;">Get a Quote</a>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>ABC Business Services specializes in helping businesses thrive with tailored consulting, cutting-edge IT solutions, and dedicated customer support. Founded in 2020, we're committed to innovation and client success. Based on your shared Google Drive link, we're located in [City, State] and serve clients nationwide.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Business Consulting</h3>
+                <p>Strategic advice to optimize operations and drive growth.</p>
+            </div>
+            <div class="service">
+                <h3>IT Solutions</h3>
+                <p>Custom software, cloud services, and tech support for modern businesses.</p>
+            </div>
+            <div class="service">
+                <h3>Customer Support</h3>
+                <p>24/7 assistance to ensure your clients are always satisfied.</p>
+            </div>
+            <div class="service">
+                <h3>Training & Workshops</h3>
+                <p>Educational sessions to empower your team with new skills.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <p>"ABC transformed our IT infrastructure—highly recommend!"</p>
+                <p>- Jane Doe, CEO of XYZ Corp</p>
+            </div>
+            <div class="testimonial">
+                <p>"Their consulting services boosted our revenue by 30%."</p>
+                <p>- John Smith, Manager at ABC Inc.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Ready to get started? Reach out today.</p>
+        <p>Email: info@abcbusiness.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Address: 456 Business Ave, [City, State] 12345 (Based on your shared link; verify details).</p>
+        <p>Hours: Mon-Fri 9am-5pm</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 ABC Business Services. All rights reserved. | <a href="https://share.google/ZBmkDbjnoDE6hjCLh">View Our Profile</a></p>
+    </footer>
+
+    <script>
+        // Simple script to make the "Get a Quote" button scroll to contact
+        document.querySelector('a[href="#contact"]').addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>
